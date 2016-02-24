@@ -73,7 +73,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'ipywidgets'
-copyright = '2015, Jupyter Team, https://jupyter.org'
+copyright = '2016, Jupyter Team, https://jupyter.org'
 author = 'Jupyter Team'
 
 # The version info for the project you're documenting, acts as replacement for
