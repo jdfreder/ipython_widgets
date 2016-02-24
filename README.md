@@ -1,8 +1,6 @@
 # Interactive HTML Widgets
 
-[![Google Group](https://img.shields.io/badge/-Google%20Group-lightgrey.svg)](https://groups.google.com/forum/#!forum/jupyter)
 [![Build Status](https://travis-ci.org/ipython/ipywidgets.svg?branch=master)](https://travis-ci.org/ipython/ipywidgets)
-[![Documentation Status](https://readthedocs.org/projects/ipywidgets/badge/?version=latest)](http://ipywidgets.readthedocs.org/en/latest/?badge=latest)
 [![Join the chat at https://gitter.im/ipython/ipywidgets](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ipython/ipywidgets?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [Interactive HTML widgets](https://github.com/ipython/ipywidgets/blob/master/examples/Index.ipynb)
@@ -21,6 +19,8 @@ A [demonstration notebook](https://github.com/ipython/ipywidgets/blob/master/exa
 
 ## Install
 
+For detailed installation instruction see the [user install](docs/source/user_install.md) document.
+
 Install the current version of ipywidgets using pip or conda:
 
     pip install ipywidgets
@@ -35,20 +35,23 @@ If you're interested in only installing the JavaScript, you may do so by running
 
     npm install jupyter-js-widgets
 
-### Development install
-See the [dev install document page](docs/source/dev_install.md).
+### Developer
+- [Developer install](docs/source/dev_install.md)
+- [Unit tests](docs/source/dev_testing.md)
+- [Release procedure](docs/source/dev_release.md)
+- [Change log](docs/source/changelog.md)
 
-## Test
-See the [dev testing document page](docs/source/dev_testing.md).
+## Usage
+See the [examples](docs/source/examples.md).
 
 ## Resources
 ### ipywidgets
 - [Demo notebook of interactive widgets](https://github.com/ipython/ipywidgets/blob/master/examples/Index.ipynb)
-- [Documentation for ipywidgets](http://ipywidgets.readthedocs.org/en/latest/) [[PDF](https://media.readthedocs.org/pdf/ipywidgets/latest/ipywidgets.pdf)]
+- [Read the Docs rendering of the documentation for ipywidgets](http://ipywidgets.readthedocs.org/en/latest/) [[PDF](https://media.readthedocs.org/pdf/ipywidgets/latest/ipywidgets.pdf)]
 - [Issues](https://github.com/ipython/ipywidgets/issues)
-- [Technical support - Jupyter Google Group](https://groups.google.com/forum/#!forum/jupyter)
 
 ### Project Jupyter
 - [Project Jupyter website](https://jupyter.org)
 - [Online Demo of Jupyter Notebook at try.jupyter.org](https://try.jupyter.org)
 - [Documentation for Project Jupyter](http://jupyter.readthedocs.org/en/latest/index.html) [[PDF](https://media.readthedocs.org/pdf/jupyter/latest/jupyter.pdf)]
+- [![Google Group](https://img.shields.io/badge/-Google%20Group-lightgrey.svg)](https://groups.google.com/forum/#!forum/jupyter)
