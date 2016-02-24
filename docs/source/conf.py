@@ -58,11 +58,8 @@ source_suffix = ['.rst', '.md']
 # Add dev disclaimer.
 if _release['version_info'][-1] == 'dev':
     rst_prolog = """
-    .. note::
-
-        This documentation is for a development version of ipywidgets. There may be
-        significant differences from the latest stable release.
-
+    This documentation is for a development version of ipywidgets. There may be
+    significant differences from the latest stable release.
     """
 
 # The encoding of source files.
