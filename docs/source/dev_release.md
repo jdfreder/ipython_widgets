@@ -1,22 +1,27 @@
-Creating a release
-==================
+To release a new version of the widgets on PyPI and npm, first checkout
+master and cd into the repo root.  Make sure the version in `widget.py`  matches
+the JS frontend version.  Also check that the frontend version specified in
+`manager-base.js` (`version`) is correct.
 
-Release a new version of the widgets on PyPI and npm
-----------------------------------------------------
+Then run the
+following, replacing the square bracketed content with appropriate values:
 
-1.  Checkout `master` branch of [ipywidgets repo](https://github.com/ipython/ipywidgets).
-2.  cd into the ipywidgets subfolder of the repo root.
-3.  Then run the following from the command line, replacing the square bracketed content with appropriate values:
-
-``` sourceCode
+```bash
+# Remove "dev" from the version.
+nano ipywidgets/_version.py
+python setup.py sdist upload && python setup.py bdist_wheel upload
+cd ../jupyter-js-widgets
 npm version [patch/minor/major]
 npm publish
+cd ..
+# Increase version to next "dev" version.
+nano ipywidgets/_version.py
+git add ipywidgets/_version.py
+git commit -m "Back to dev"
 git push [upstream master]
 git push [upstream] --tags
 ```
 
-**On GitHub:**
-
-1.  Go to <https://github.com/ipython/ipywidgets/milestones> and click **Close** for the released version.
-2.  Make sure patch, minor, and/or major milestones exist as appropriate. If not, create the milestone using GitHub's interface.
-
+On GitHub
+1. Go to https://github.com/ipython/ipywidgets/milestones and click "Close" for the released version.
+2. Make sure patch, minor, and/or major milestones exist as appropriate.
