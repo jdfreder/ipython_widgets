@@ -1,0 +1,17 @@
+.sphinxsidebarwrapper>form, 
+.sphinxsidebarwrapper>div,
+.sphinxsidebarwrapper>h3 {
+    display: none;
+}
+.sphinxsidebarwrapper>ul {
+    padding-top: 1em;
+}
+#breadcrumbs {
+    display: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+#pagefooter {
+    font-size: 12px;
+}
