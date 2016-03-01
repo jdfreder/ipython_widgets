@@ -405,7 +405,7 @@ html_theme_options = {
   # CSS files to include after all other CSS files
   # (refer to by relative path from conf.py directory, or link to a
   # remote file)
-  'cssfiles': ['http://yui.yahooapis.com/pure/0.6.0/pure-min.css', '_static/custom.css'],  # default is empty list , '_static/my_style.css'
+  'cssfiles': ['https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css', '_static/custom.css'],  # default is empty list , '_static/my_style.css'
 
   # show a big text header with the value of html_title
   'showheader': True,
