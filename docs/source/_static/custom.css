@@ -60,11 +60,11 @@ header#pageheader, footer#pagefooter, .related, .document {
 .sphinxsidebar li {
     list-style-type: none;
 }
-.rst-versions .rst-current-version {
+.injected .rst-versions .rst-current-version {
   background: #eee;
   color: #888;
 }
-.rst-versions .rst-current-version .fa {
+.injected .rst-versions .rst-current-version .fa {
   color: #888;
 }
 
