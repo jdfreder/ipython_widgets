@@ -58,8 +58,9 @@ source_suffix = ['.rst', '.md', '.js']
 # Add dev disclaimer.
 if _release['version_info'][-1] == 'dev':
     rst_prolog = """
-    This documentation is for a development version of ipywidgets. There may be
-    significant differences from the latest stable release.
+<div class="alert alert-warning" role="alert">
+This documentation is for a development version of ipywidgets. There may be significant differences from the latest stable release.
+</div>
     """
 
 # The encoding of source files.

@@ -1,10 +1,6 @@
-.sphinxsidebarwrapper>form, 
 .sphinxsidebarwrapper>div,
 .sphinxsidebarwrapper>h3 {
     display: none;
-}
-.sphinxsidebarwrapper>ul {
-    padding-top: 1em;
 }
 #breadcrumbs {
     display: none;
@@ -12,6 +8,63 @@
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
-#pagefooter {
+footer#pagefooter {
     font-size: 12px;
+    color: #999;
 }
+footer#pagefooter a {
+    color: #999;
+}
+body > header h1 a {
+    color: #337ab7;
+}
+body > header h1 a:focus,
+body > header h1 a:hover {
+    color: #23527c;
+  	text-decoration: none;
+}
+a,
+a:visited {
+    color: #337ab7;
+  	text-decoration: none;
+}
+a:focus,
+a:hover {
+    color: #23527c;
+  	text-decoration: none;
+}
+.related.top {
+    border-bottom: 1px solid #eee;
+  	margin-bottom: 1em;
+}
+header#pageheader h1 {
+    margin-top: 10px;
+  	font-size: 18.5px;
+}
+header#pageheader h1:after {
+	content: "Interactive widgets for Jupyter and the IPython kernel";
+  	font-size: 13.5px;
+    color: #999;
+}
+header#pageheader, footer#pagefooter, .related, .document {
+    max-width: 100rem;
+}
+.sphinxsidebar {
+    font-size: 13px;
+    line-height: 35px;
+    margin-top: 2em;
+}
+.documentwrapper {
+    margin-top: 2em;
+}
+.sphinxsidebar li {
+    list-style-type: none;
+}
+.rst-versions .rst-current-version {
+  background: #eee;
+  color: #888;
+}
+.rst-versions .rst-current-version .fa {
+  color: #888;
+}
+
