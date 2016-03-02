@@ -53,7 +53,7 @@ templates_path = ['_templates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
-source_suffix = ['.rst', '.md', '.js']
+source_suffix = ['.rst', '.md']
 
 # Add dev disclaimer.
 if _release['version_info'][-1] == 'dev':
@@ -70,7 +70,7 @@ This documentation is for a development version of ipywidgets. There may be sign
 master_doc = 'index'
 
 # General information about the project.
-project = 'ipywidgets'
+project = 'ipywidgets and jupyter-js-widgets'
 copyright = '2016, Jupyter Team, https://jupyter.org'
 author = 'Jupyter Team'
 
