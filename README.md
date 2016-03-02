@@ -8,18 +8,7 @@ for Jupyter notebooks and the IPython kernel.
 
 A [demonstration notebook](https://github.com/ipython/ipywidgets/blob/master/examples/Index.ipynb) provides an overview of the interactive widgets. For detailed information, please refer to the [ipywidgets documentation](http://ipywidgets.readthedocs.org/en/latest/).
 
-**Compatibility**  
-
-| ipywidgets version  | Jupyter/notebook version |
-| ------------------- | ------------------------ |
-| master              | master                   |
-| 4.1.x               | 4.1                      |
-| 4.0.x               | 4.0                      |
-
-
 ## Install
-
-For detailed installation instruction see the [user install](docs/source/user_install.md) document.
 
 Install the current version of ipywidgets using pip or conda:
 
@@ -29,20 +18,23 @@ or
 
     conda install ipywidgets
 
-### JavaScript only
+For detailed installation instructions see the [user install](docs/source/user_install.md) document.
 
-If you're interested in only installing the JavaScript, you may do so by running
+#### Compatibility
 
-    npm install jupyter-js-widgets
+| ipywidgets version  | Jupyter/notebook version |
+| ------------------- | ------------------------ |
+| master              | master                   |
+| 4.1.x               | 4.1                      |
+| 4.0.x               | 4.0                      |
 
-### Developer
-- [Developer install](docs/source/dev_install.md)
-- [Unit tests](docs/source/dev_testing.md)
-- [Release procedure](docs/source/dev_release.md)
-- [Change log](docs/source/changelog.md)
+[Change log](docs/source/changelog.md)
 
 ## Usage
 See the [examples](docs/source/examples.md).
+
+## Developer
+- [Developer install](docs/source/dev_install.md)
 
 ## Resources
 ### ipywidgets
