@@ -4,4 +4,7 @@ window.onload = function() {
   });
   
   document.querySelector('form input[type=text]').className = 'form-control input-lg';
+  
+  // TODO: Put this in the template
+  document.querySelector('#pageheader a').innerText = 'ipywidgets and jupyter-js-widgets ';
 };
