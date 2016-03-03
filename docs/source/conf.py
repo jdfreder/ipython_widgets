@@ -98,6 +98,8 @@ intersphinx_mapping = {
 html_theme = 'bootstrap'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 html_static_path = ['_static']
+
+
 # html_short_title = "Home"
 #
 #
@@ -154,7 +156,7 @@ html_theme_options = {
 
     # Location of link to source.
     # Options are "nav" (default), "footer" or anything else to exclude.
-    'source_link_position': "nav",
+    'source_link_position': "none",
 
     # Bootswatch (http://bootswatch.com/) theme.
     #
