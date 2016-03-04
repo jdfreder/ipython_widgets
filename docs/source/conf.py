@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
 import sys
@@ -5,6 +6,14 @@ import os
 import shlex
 from recommonmark.parser import CommonMarkParser
 import sphinx_bootstrap_theme
+import subprocess
+
+print "Building JS..."
+sys.stdout.flush()
+try:
+    subprocess.call("bash ../build.sh", shell=True)
+finally:
+    print "Done building JS"
 
 source_parsers = {
     '.md': CommonMarkParser,

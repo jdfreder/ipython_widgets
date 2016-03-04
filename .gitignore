@@ -27,4 +27,5 @@ npm-debug.log
 widgetsnbextension/widgetsnbextension/static
 
 index.built.js
+index.built.js.map
 **/es5/
