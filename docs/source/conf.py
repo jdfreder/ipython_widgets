@@ -98,7 +98,11 @@ intersphinx_mapping = {
 html_theme = 'bootstrap'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 html_static_path = ['_static']
-
+html_sidebars = {
+    '**': [
+        'sidebartoc.html'
+    ]
+}
 
 # html_short_title = "Home"
 #
@@ -120,15 +124,13 @@ html_theme_options = {
     # Note the "1" or "True" value above as the third argument to indicate
     # an arbitrary url.
     'navbar_links': [
-        ("Examples", "examples"),
-        ("Link", "http://example.com", True),
     ],
 
     # Render the next and previous page links in navbar. (Default: true)
     'navbar_sidebarrel': True,
 
     # Render the current pages TOC in the navbar. (Default: true)
-    'navbar_pagenav': True,
+    'navbar_pagenav': False,
 
     # Tab name for the current pages TOC. (Default: "Page")
     'navbar_pagenav_name': "Page",

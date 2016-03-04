@@ -3,10 +3,7 @@
 
 {% set bootswatch_css_custom = ['_static/custom.css'] %}
 
-{% block sidebar1 %}
-<div classname="sidebar">
-  <ul class="nav nav-pills nav-stacked">
-    {{ toctree(maxdepth=theme_globaltoc_depth|toint, collapse=False, includehidden=theme_globaltoc_includehidden|tobool) }}
-  </ul>
-</div>
-{% endblock sidebar1 %}
+{% block extrahead %}
+{{ super() }}
+<script src='_static/index.js'></script>
+{% endblock extrahead %}

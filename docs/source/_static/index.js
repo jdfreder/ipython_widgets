@@ -6,8 +6,18 @@ window.onload = function() {
       .replace(/\.ipynb$/, '.html');
   });
 
-  document.querySelector('form input[type=text]').className = 'form-control input-lg';
-  
-  // TODO: Put this in the template
-  document.querySelector('#pageheader a').innerText = 'ipywidgets and jupyter-js-widgets ';
+  // // TODO: Put this in the template
+  // document.querySelector('#pageheader a').innerText = 'ipywidgets and jupyter-js-widgets ';
+
+  // $('body').scrollspy({
+  //   target: '.bs-docs-sidebar',
+  //   offset: 40
+  // });
+  //
+  // 
+  // var relations = document.querySelector('.nav.navbar-nav');
+  // var search = relations.nextElementSibling;
+  // search.remove();
+  // relations.parentElement.insertBefore(search,relations);
+  // relations.classList.add('navbar-right');
 };

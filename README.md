@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/ipython/ipywidgets.svg?branch=master)](https://travis-ci.org/ipython/ipywidgets)
 [![Join the chat at https://gitter.im/ipython/ipywidgets](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ipython/ipywidgets?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Documentation Status](https://readthedocs.org/projects/ipywidgets/badge/?version=latest)](http://ipywidgets.readthedocs.org/en/latest/?badge=latest)
 
 [Interactive HTML widgets](https://github.com/ipython/ipywidgets/blob/master/examples/Index.ipynb)
 for Jupyter notebooks and the IPython kernel.
@@ -39,8 +40,6 @@ See the [examples](docs/source/examples.md).
 ## Resources
 ### ipywidgets
 - [Demo notebook of interactive widgets](https://github.com/ipython/ipywidgets/blob/master/examples/Index.ipynb)
-- [Read the Docs rendering of the documentation for ipywidgets](http://ipywidgets.readthedocs.org/en/latest/) [[PDF](https://media.readthedocs.org/pdf/ipywidgets/latest/ipywidgets.pdf)]
-- [Issues](https://github.com/ipython/ipywidgets/issues)
 
 ### Project Jupyter
 - [Project Jupyter website](https://jupyter.org)
