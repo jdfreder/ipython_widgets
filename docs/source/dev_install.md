@@ -1,6 +1,14 @@
 Developer Install
 =================
 
+<div><widget-state>
+{
+  "state": "wo",
+  "value": "test",
+  "run": 3
+}
+</widget-state></div>
+
 To install ipywidgets from git, you will need [npm](https://www.npmjs.com/) and
 the latest [development copy of the Jupyter
 notebook](https://github.com/jupyter/notebook) because everything in the
