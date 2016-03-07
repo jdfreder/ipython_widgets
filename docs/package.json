@@ -11,6 +11,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "npm run build",
+    "clean": "rimraf source/_static/built",
+    "prebuild": "npm run clean",
     "build": "webpack"
   },
   "repository": {
@@ -32,8 +34,13 @@
     "file-loader": "^0.8.5",
     "json-loader": "^0.5.4",
     "jupyter-js-widgets": "file:../jupyter-js-widgets",
+    "rimraf": "^2.5.2",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
     "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "jquery-ui": "^1.10.5"
   }
 }

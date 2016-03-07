@@ -31,8 +31,7 @@ Developer Install
       "margin": "",
       "display": "",
       "left": ""
-    },
-    "views": []
+    }
   },
   "e43a868c5c0b4db39f0416d0fe9cc476": {
     "model_name": "IntSliderModel",
@@ -71,7 +70,7 @@ Developer Install
       "msg_throttle": 3,
       "value": 0,
       "margin": ""
-    },
+    }
   }
 }
 </widget-state>
